@@ -7,7 +7,7 @@
 
 ### Features working: Login/Logout, All the CRUD Operations of Todos
 
-### Deployed FronrEnd Link: [link](https://abvenu.github.io/empowerherfullstack/)
+### Deployed FronrEnd Link: [link](https://gouri22-art.github.io/Mini-TODO-App/)
 
 ### Deployed Backend Link: [Link](https://beryl-ember-havarti.glitch.me)
 
