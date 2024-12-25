@@ -14,6 +14,12 @@
 
 ### Screenshots:
 
-1. #### Home Page: ![HomePage](./Assests/DocsScreenshots/HomePage.png)
+1. #### Home Page: ![HomePage](./Assets/homepage.png)
 
-2. #### Singup Page: ![Signup Page](./Assests/DocsScreenshots/Signup.png)
+2. #### SingUp Page: ![Signup Page](./Assets/signuppage.png)
+
+3. #### Login Page:  ![Login Page](./Assets/LoginPage.png)
+
+4. #### Todo Page:  ![Todo Page](./Assets/TodoPage.png)
+
+5. #### Expenses Page:  ![Expenses Page](./Assets/ExpensesPage.png)
