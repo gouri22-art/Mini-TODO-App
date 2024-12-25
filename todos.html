@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/todo.css" />
+    <title>Todos</title>
+  </head>
+  <body>
+    <div id="nav"></div>
+    <main>
+      <div id="user-data">
+        <h4 id="user-name"></h4>
+        <button id="logout">Logout</button>
+      </div>
+      <button id="add_todo_btn">ADD TODO</button>
+      <button id="get_stats">GET STATS</button>
+      <div id="add-todo">
+        <div>
+          <h3 id="close_modal"><span> &times; </span></h3>
+          <div id="modal_content">
+            <h2 id="add_update_todo">Add Todo</h2>
+          <form id="form">
+            <input id="todoId" type="text" style="display: none;">
+            <label for="title">Enter Task Title</label>
+            <input id="title" type="text" placeholder="Enter Title" />
+            <label for="deadline">Select Deadline</label>
+            <input id="deadline" type="date" />
+            <label for="prority">Select Priority</label>
+            <select id="priority">
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+            <input id="submit" type="submit" value="Add Todo" />
+          </form>
+          </div>
+        </div>
+      </div>
+      <div id="todo-container"></div>
+    </main>
+    <div id="footer"></div>
+  </body>
+  <script src="./scripts/footer.js"></script>
+  <script src="./scripts/navbar.js" type="module"></script>
+  <script src="./scripts/todo.js" type="module"></script>
+  <script src="./scripts/getStats.js" type="module"></script>
+</html>

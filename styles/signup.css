@@ -1,0 +1,47 @@
+#form{
+    width: 30%;
+    height: 400px;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(245, 54, 118);
+    background-color: rgb(248, 189, 209);
+    padding: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+h3{
+    font-size: 2rem;
+}
+#form input{
+    height: 20px;
+    width: 80%;
+}
+
+select{
+    height: 20px;
+    width: 80%;
+    background-color: rgb(228, 200, 253);
+    
+}
+#submit{
+    width: 50px;
+    background-color: rgb(245, 54, 118);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    
+}
+
+#submit:hover{
+    background-color:rgb(220, 130, 160) ;
+  transition:  background-color 1s ease;
+}

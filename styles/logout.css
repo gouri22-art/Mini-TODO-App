@@ -1,0 +1,30 @@
+#logout,
+#submit,
+#add_todo_btn,
+.todobtns,#get_stats {
+  padding: 5px;
+  width: 70px;
+  background-color: rgb(245, 54, 118);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  float: right;
+  
+}
+#logout{
+    margin-right: 20px;
+}
+#logout:hover {
+  background-color: rgb(237, 171, 193);
+  transition: background-color 1s ease;
+}
+
+#user-name,label,
+h2{
+  color: rgb(245, 54, 118)olet;
+  font-size: 1.2rem;
+  text-align: center;
+}
